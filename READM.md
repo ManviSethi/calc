@@ -16,7 +16,7 @@ void power();
 int factorial();
 void calculator_operations();
  
-// Start of Main Programa
+// Start of Main Program
 int main()
 {
     int X=1;
@@ -112,7 +112,7 @@ void addition()
     { 
         scanf("%d",&number);
         total=total+number;
-        k=k+1;
+        k+=1;
     }
     printf("Sum of %d numbers = %d \n",n,total);
 }
